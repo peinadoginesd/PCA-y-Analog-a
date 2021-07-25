@@ -22,10 +22,9 @@ from sklearn.decomposition import PCA
 from math import sqrt
 
 """
-RUTA: ¡CAMBIAR!
+RUTA
 """
-workpath = ""
-# "C:/Users/daniel/Desktop/CARRERA/4º/Geometría Computacional/Practica 4 - PCA y Analogia"
+workpath = "" # Poner ruta de archivos
 os.getcwd()
 #os.chdir(workpath)
 files = os.listdir(workpath)
